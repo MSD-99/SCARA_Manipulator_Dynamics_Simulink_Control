@@ -148,12 +148,18 @@ Where $K_p, K_v, K_i > 0$ are positive-definite gain matrices tuned to achieve c
       <td><img src="docs/assets/tracking_error_curve.png" width="410"/></td>
     </tr>
     <tr>
-      <td align="center"><b>X-Z Plane Trajectory</b></td>
-      <td align="center"><b>End-Effector Multi-Axis Response</b></td>
+      <td align="center"><b>X-Z Plane Spatial Trajectory (Phase 2)</b></td>
+      <td align="center"><b>X-Z Plane Spatial Trajectory (Phase 3)</b></td>
     </tr>
     <tr>
       <td><img src="docs/assets/xz_trajectory_graph.png" width="410"/></td>
-      <td><img src="docs/assets/all_simulation_results.png" width="410"/></td>
+      <td><img src="docs/assets/xz_graph_part3.png" width="410"/></td>
+    </tr>
+    <tr>
+      <td align="center" colspan="2"><b>End-Effector Multi-Axis Response & Steady-State Convergence</b></td>
+    </tr>
+    <tr>
+      <td align="center" colspan="2"><img src="docs/assets/all_simulation_results.png" width="750"/></td>
     </tr>
   </table>
 </div>
@@ -206,17 +212,6 @@ SCARA_Manipulator_Dynamics_Simulink_Control/
    sim('scara_robot_trajectory_tracking.slx')
    ```
 5. View the 3D mechanics animation in the **Simscape Mechanics Explorer**.
-
----
-
-## 👨‍💻 Author & Research Background
-
-**Mehdi Sadeghian**  
-- M.Sc. in Mechatronics Engineering, Tarbiat Modares University (TMU)
-- Research Focus: Safe Autonomous Navigation, Deep Reinforcement Learning, Robotic Manipulator Control
-- 🌐 Website: [msd-99.github.io](https://msd-99.github.io/)
-- 💻 GitHub: [@MSD-99](https://github.com/MSD-99)
-- 🔗 LinkedIn: [mehdi-sadeghian](https://www.linkedin.com/in/mehdi-sadeghian)
 
 ---
 
