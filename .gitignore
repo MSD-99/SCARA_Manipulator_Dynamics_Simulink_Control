@@ -1,0 +1,20 @@
+# MATLAB / Simulink
+slprj/
+*.slxc
+*.asv
+*.m~
+*.mat
+*.log
+*.autosave
+tmwinternal/
+
+# CAD & Temporary Files
+*.rar
+*.zip
+*.7z
+*.pdf
+*.docx
+*.avi
+*.mp4
+.DS_Store
+Thumbs.db
